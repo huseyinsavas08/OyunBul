@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @AppStorage("step") var step = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        if step {
+            HomeView()
+        } else {
+            OnBoardView()
         }
-        .padding()
     }
 }
 
