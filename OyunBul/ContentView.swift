@@ -12,7 +12,6 @@ struct ContentView: View {
     @AppStorage("step") var step = false
     
     var body: some View {
-        
         if step {
             HomeView()
         } else {

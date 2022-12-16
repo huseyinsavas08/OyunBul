@@ -25,7 +25,6 @@ struct OnBoardView: View {
                         .foregroundColor(.gray)
                 }
             }
-            
             TabView(selection: $currentStep) {
                 ForEach(0..<OnBoardStep.onBoardSteps.count) { i in
                     VStack {
@@ -44,7 +43,6 @@ struct OnBoardView: View {
                 }
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-            
             HStack {
                 ForEach(0..<OnBoardStep.onBoardSteps.count) { i in
                     if i == currentStep {
@@ -60,7 +58,6 @@ struct OnBoardView: View {
                 }
             }
             .padding(.bottom, 24)
-            
             Button {
                 if currentStep < OnBoardStep.onBoardSteps.count - 1 {
                     currentStep += 1

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		266D1E99294CC10700573CF1 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D1E98294CC10700573CF1 /* HomeScreenView.swift */; };
+		266D1E9B294CCA2600573CF1 /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D1E9A294CCA2600573CF1 /* DetailScreenView.swift */; };
 		268B5D5E294BB3F400C6A48B /* OyunBulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B5D5D294BB3F400C6A48B /* OyunBulApp.swift */; };
 		268B5D60294BB3F400C6A48B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B5D5F294BB3F400C6A48B /* ContentView.swift */; };
 		268B5D62294BB3F500C6A48B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268B5D61294BB3F500C6A48B /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		266D1E98294CC10700573CF1 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		266D1E9A294CCA2600573CF1 /* DetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
 		268B5D5A294BB3F400C6A48B /* OyunBul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OyunBul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268B5D5D294BB3F400C6A48B /* OyunBulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunBulApp.swift; sourceTree = "<group>"; };
 		268B5D5F294BB3F400C6A48B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				268B5D5D294BB3F400C6A48B /* OyunBulApp.swift */,
 				268B5D5F294BB3F400C6A48B /* ContentView.swift */,
 				268B5D6B294BB79200C6A48B /* HomeView.swift */,
+				266D1E9A294CCA2600573CF1 /* DetailScreenView.swift */,
+				266D1E98294CC10700573CF1 /* HomeScreenView.swift */,
 				268B5D6D294BB7E500C6A48B /* OnBoardView.swift */,
 				268B5D6F294BBC9000C6A48B /* OnBoardStep.swift */,
 				268B5D61294BB3F500C6A48B /* Assets.xcassets */,
@@ -149,6 +155,8 @@
 				268B5D6E294BB7E500C6A48B /* OnBoardView.swift in Sources */,
 				268B5D6C294BB79200C6A48B /* HomeView.swift in Sources */,
 				268B5D70294BBC9000C6A48B /* OnBoardStep.swift in Sources */,
+				266D1E9B294CCA2600573CF1 /* DetailScreenView.swift in Sources */,
+				266D1E99294CC10700573CF1 /* HomeScreenView.swift in Sources */,
 				268B5D60294BB3F400C6A48B /* ContentView.swift in Sources */,
 				268B5D5E294BB3F400C6A48B /* OyunBulApp.swift in Sources */,
 			);
